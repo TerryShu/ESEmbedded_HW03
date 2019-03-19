@@ -17,3 +17,5 @@ qemu:
 clean:
 	rm -rf *.o *.elf
 
+debugger:
+	$(CROSS-COMPILER)gdb
